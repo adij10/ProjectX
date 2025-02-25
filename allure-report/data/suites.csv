@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5640","test","chromium","Wed Feb 19 16:40:41 IST 2025","passed","Wed Feb 19 16:40:46 IST 2025","","login.spec.ts","",""
+"","4985","Test checkout flow","chromium","Wed Feb 19 16:40:41 IST 2025","passed","Wed Feb 19 16:40:46 IST 2025","","capsTest.spec.ts","",""
