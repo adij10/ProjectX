@@ -40,7 +40,7 @@ jobs:
 
       # Step 6: Upload screenshots, videos, and reports as artifacts
       - name: Upload screenshots and videos
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: playwright-artifacts
           path: |
