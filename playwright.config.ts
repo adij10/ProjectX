@@ -42,7 +42,7 @@ export default defineConfig({
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     video: 'on', // Should be lowercase 'on'
     trace: 'on', // Should be lowercase 'on'
-    headless: false, // Make sure to have a comma here
+    headless: true, // Make sure to have a comma here
     screenshot: 'on' // Make sure to have a comma here
   },
 
