@@ -37,3 +37,14 @@ jobs:
       - name: Run Playwright tests
         run: |
           npx playwright test
+
+      # Step 6: Upload screenshots, videos, and reports as artifacts
+      - name: Upload screenshots and videos
+        uses: actions/upload-artifact@v2
+        with:
+          name: playwright-artifacts
+          path: |
+            test-reports
+            **/*.png
+            **/*.mp4
+
